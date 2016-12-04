@@ -84,4 +84,13 @@ object User "icingaadmin" {
   vars.sms_phone = "<phonenumber>"
 }
   
- ````
+```
+
+Put that to hosts
+
+```
+vars.notification["sms"] = {
+   users = [ "icingaadmin" ]
+}
+```
+
