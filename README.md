@@ -6,7 +6,9 @@ Simple SMS Notification to Icinga2.
 
 * Curl
 
-## Configure
+## Download & Configure
+
+Download sms-host-notification.sh to scripts directory.
 
 constrants.conf
 ```
